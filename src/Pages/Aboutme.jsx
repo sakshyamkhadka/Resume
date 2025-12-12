@@ -40,9 +40,9 @@ const About = () => {
             <div className="stat"><h3>2</h3><p>AWARDS</p></div>
           </div>
 
-          <button className="btn btn-download">
-            <a href="../Sakshyam-CV.pdf" download><FaDownload /> Download CV</a>
-          </button>
+          <a href="../Sakshyam-CV.pdf" download><button className="btn btn-download">
+            <FaDownload /> Download CV
+          </button></a>
 
           <a href="#contact"><button className="btn btn-contact"><FaEnvelope /> Contact</button></a>
 
