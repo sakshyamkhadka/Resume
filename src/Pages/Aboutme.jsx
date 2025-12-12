@@ -20,7 +20,7 @@ const About = () => {
 
       <div className="about-layout">
 
-        <div className="about-left">
+        <div className="about-left  d-flex flex-column ">
           <div className="profile-pic-wrapper">
             <img src="/Images/profile.png" alt="Profile" className="profile-pic" />
             <span className="online-indicator"></span>
@@ -41,7 +41,7 @@ const About = () => {
           </div>
 
           <button className="btn btn-download">
-            <a href="Images/Rachna CV.pdf" download><FaDownload /> Download CV</a>
+            <a href="Images/" download><FaDownload /> Download CV</a>
           </button>
 
           <button className="btn btn-contact"><FaEnvelope /> Contact</button>
