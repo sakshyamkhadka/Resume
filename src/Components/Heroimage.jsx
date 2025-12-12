@@ -41,7 +41,7 @@ const HeroImage = () => {
               <i className="bi bi-facebook"></i>
             </a>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/saksh_yam12/"
               target="_blank"
               rel="noreferrer"
               className="social-circle"

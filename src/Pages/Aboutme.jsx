@@ -41,16 +41,16 @@ const About = () => {
           </div>
 
           <button className="btn btn-download">
-            <a href="Images/" download><FaDownload /> Download CV</a>
+            <a href="../Sakshyam-CV.pdf" download><FaDownload /> Download CV</a>
           </button>
 
-          <button className="btn btn-contact"><FaEnvelope /> Contact</button>
+          <a href="#contact"><button className="btn btn-contact"><FaEnvelope /> Contact</button></a>
 
           <div className="about-left-social-box">
-            <a href="#"><i className="bi bi-facebook"></i></a>
-            <a href="#"><i className="bi bi-instagram"></i></a>
-            <a href="#"><i className="bi bi-github"></i></a>
-            <a href="#"><i className="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/sakshyam.khadka.438160"><i className="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/saksh_yam12/"><i className="bi bi-instagram"></i></a>
+            <a href="https://github.com/sakshyamkhadka"><i className="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/sakshyam-khadka-826b98223/"><i className="bi bi-linkedin"></i></a>
           </div>
         </div>
 

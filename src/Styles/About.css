@@ -10,6 +10,9 @@
   scrollbar-width: none;    
   -ms-overflow-style: none;  
 }
+a{
+  text-decoration: none;
+}
 
 .about-right-container::-webkit-scrollbar {
   display: none;          
