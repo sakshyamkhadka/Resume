@@ -100,9 +100,11 @@ const Contact = () => {
                         required
                     />
 
-                    <button type="submit" className="send-btn">
-                        Send Message
-                    </button>
+                    <a href="mailto:khadkasakshyam60.gmailcom">
+                        <button type="submit" className="send-btn" >
+                            Send Message
+                        </button>
+                    </a>
                 </form>
             </div>
         </div>
