@@ -1,0 +1,39 @@
+.cardbtn{
+    border: 1px solid var(--primary-color);
+
+    color: var(--secondary-color);
+}
+
+.cardbtn:hover{
+
+    background-color: var(--primary-color);
+}
+
+.section {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.section::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 225px;
+  height: 1px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  margin-bottom: 10px;
+
+}
+
+
+
+@media (max-width: 768px) {
+  .section::after {
+    width: 150px;
+  }
+  
+}
+

@@ -1,0 +1,26 @@
+.skills-container {
+  padding: 40px;
+  color: white;
+  background: #0a0a0a;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.skill-name {
+  font-weight: 600;
+}
+
+.skill-value {
+  font-weight: 600;
+  color: #ff4d5a;
+}
+
+.gradient-bar {
+  background: linear-gradient(90deg, #ff5f6d, #ff3d5a, #ff2e63);
+  border-radius: 20px;
+}

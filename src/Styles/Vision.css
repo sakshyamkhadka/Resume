@@ -1,0 +1,30 @@
+.vision-btn{
+    width: 200px;
+    color: white;
+}
+
+
+
+.vison_container{
+    /* height: 200px; */
+    padding: 30px  12px  ;
+    border:1px solid#ff4d5098;
+    border-radius: 10px;
+    align-items: center ;
+    justify-content: center;
+}
+
+@media (max-width:900px) {
+    .vison_container{
+        padding: 20px  8px  ;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    
+    .vision-btn{
+        width: 50%;
+        margin-top: 15px !important;
+    }
+
+}

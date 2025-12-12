@@ -1,0 +1,24 @@
+:root{
+    --primary-color:#ff4d4f;
+    --secondary-color:White;
+    --font-family:"Roboto", sans-serif;
+}  
+
+#root{
+    background-color: #121212 !important;
+    color:var(--secondary-color);
+    overflow: hidden;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: var(--primary-color);
+    text-align: center;
+    ;
+}
+
