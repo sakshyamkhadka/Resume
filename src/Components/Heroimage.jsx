@@ -33,7 +33,7 @@ const HeroImage = () => {
           </p>
           <div className="hero-social">
             <a
-              href="https://www.facebook.com/sakshyam.khadka.100"
+              href="https://www.facebook.com/sakshyam.khadka.438160"
               target="_blank"
               rel="noreferrer"
               className="social-circle"

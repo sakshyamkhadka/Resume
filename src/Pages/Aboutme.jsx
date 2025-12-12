@@ -44,7 +44,7 @@ const About = () => {
             <FaDownload /> Download CV
           </button></a>
 
-          <a href="#contact"><button className="btn btn-contact"><FaEnvelope /> Contact</button></a>
+          <a href="#contact"><button className="btn btn-contact text-white"><FaEnvelope /> Contact</button></a>
 
           <div className="about-left-social-box">
             <a href="https://www.facebook.com/sakshyam.khadka.438160"><i className="bi bi-facebook"></i></a>

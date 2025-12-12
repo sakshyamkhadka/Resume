@@ -9,6 +9,8 @@ const Contact = () => {
         message: '',
     });
 
+    const allowedDomains = ["gmail.com", "icloud.com", "outlook.com", "yahoo.com", "hotmail.com"];
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
@@ -16,6 +18,14 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
+        const emailDomain = formData.email.split("@")[1]?.toLowerCase();
+
+        if (!allowedDomains.includes(emailDomain)) {
+            alert(`Invalid email domain. Allowed domains: ${allowedDomains.join(", ")}`);
+            return;
+        }
+
         alert('Message sent!');
         setFormData({ name: '', email: '', subject: '', message: '' });
     };
@@ -27,7 +37,6 @@ const Contact = () => {
             <p className="contact-description">
                 We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out. If you’re interested in collaborating on a project, don’t hesitate to ask — our team is here to help and will get back to you as soon as possible.
             </p>
-
 
             <div className="contact-content">
                 <div className="contact-info">
@@ -100,11 +109,9 @@ const Contact = () => {
                         required
                     />
 
-                    <a href="mailto:khadkasakshyam60.gmailcom">
-                        <button type="submit" className="send-btn" >
-                            Send Message
-                        </button>
-                    </a>
+                    <button type="submit" className="send-btn">
+                        Send Message
+                    </button>
                 </form>
             </div>
         </div>

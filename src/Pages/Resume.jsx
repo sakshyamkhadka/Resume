@@ -85,7 +85,7 @@ export default function Resume() {
           <div key={index} className="card mb-3  p-3 ">
             <h5>{edu.title}</h5>
             <p className="text">
-              {edu.school} | {edu.period}
+              {edu.school}
             </p>
           </div>
         ))}
