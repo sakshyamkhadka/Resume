@@ -36,7 +36,7 @@ const About = () => {
 
           <div className="stats">
             <div className="stat"><h3>6</h3><p>PROJECTS</p></div>
-            <div className="stat"><h3>3+</h3><p>YEARS</p></div>
+            <div className="stat"><h3>1+</h3><p>YEARS</p></div>
             <div className="stat"><h3>2</h3><p>AWARDS</p></div>
           </div>
 
@@ -76,7 +76,7 @@ const About = () => {
           <div className="info-cards">
             <div className="info-card">
               <FaBriefcase className="icon" />
-              <div><p className="info-label">EXPERIENCE</p><p className="info-value">2+ Years</p></div>
+              <div><p className="info-label">EXPERIENCE</p><p className="info-value">1+ Years</p></div>
             </div>
 
             <div className="info-card">
@@ -91,7 +91,7 @@ const About = () => {
 
             <div className="info-card">
               <FaEnvelope className="icon" />
-              <div><p className="info-label">EMAIL</p><p className="info-value">sakshyamkhadka982@gmail.com</p></div>
+              <div><p className="info-label">EMAIL</p><p className="info-value">khadkasakshyam60@gmail.com</p></div>
             </div>
 
             <div className="info-card">
